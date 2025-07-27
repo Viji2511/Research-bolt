@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ResearchBolt - Learn. Build. Innovate.</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+  <!-- HEADER / NAVBAR -->
+  <header class="bg-white shadow">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <h1 class="text-2xl font-bold text-blue-600">ResearchBolt</h1>
+      <nav>
+        <ul class="flex space-x-6 text-gray-700">
+          <li><a href="#overview" class="hover:text-blue-600">Overview</a></li>
+          <li><a href="#features" class="hover:text-blue-600">Features</a></li>
+          <li><a href="#flow" class="hover:text-blue-600">Platform Flow</a></li>
+          <li><a href="#mvp" class="hover:text-blue-600">MVP Plan</a></li>
+          <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="bg-blue-50 text-center py-20">
+    <h2 class="text-4xl font-bold mb-4">Learn. Build. Innovate.</h2>
+    <p class="max-w-2xl mx-auto text-lg text-gray-600">
+      ResearchBolt revolutionizes how students, developers, and researchers discover and build on academic work.
+    </p>
+    <button class="mt-6 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">Get Started</button>
+  </section>
+
+  <!-- OVERVIEW -->
+  <section id="overview" class="container mx-auto py-16 px-6">
+    <h3 class="text-3xl font-semibold mb-4">🔍 Overview</h3>
+    <p class="text-gray-700 leading-relaxed">
+      ResearchBolt goes beyond just finding papers; it helps users understand, build from, and grow through them. 
+      Combining intelligent search, learning roadmaps, AI coaching, and automatic toolkits, this platform aims to 
+      become the world's most helpful research assistant.
+    </p>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features" class="bg-white py-16 px-6">
+    <div class="container mx-auto">
+      <h3 class="text-3xl font-semibold mb-8">✨ Key Features</h3>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="p-6 bg-blue-100 rounded-lg">
+          <h4 class="font-bold mb-2">🔮 Reverse Search Engine</h4>
+          <p class="text-sm text-gray-700">Describe your problem, and find relevant research papers instantly.</p>
+        </div>
+        <div class="p-6 bg-blue-100 rounded-lg">
+          <h4 class="font-bold mb-2">💪 Build-from-Paper Toolkit</h4>
+          <p class="text-sm text-gray-700">Extract datasets, code snippets, and GitHub-ready project structures.</p>
+        </div>
+        <div class="p-6 bg-blue-100 rounded-lg">
+          <h4 class="font-bold mb-2">🌍 Research Skill Roadmaps</h4>
+          <p class="text-sm text-gray-700">Get curated learning paths to understand papers and core concepts.</p>
+        </div>
+        <div class="p-6 bg-blue-100 rounded-lg">
+          <h4 class="font-bold mb-2">🧠 AI Research Coach</h4>
+          <p class="text-sm text-gray-700">Learn to think like a researcher with our interactive AI chatbot.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLATFORM FLOW -->
+  <section id="flow" class="container mx-auto py-16 px-6">
+    <h3 class="text-3xl font-semibold mb-4">🧩 Platform Flow</h3>
+    <ul class="list-disc list-inside text-gray-700 leading-loose">
+      <li>Describe Your Research Idea → Reverse Search Engine</li>
+      <li>View Papers List → Toolkit + GitHub Generator</li>
+      <li>Learn More → Skill Roadmap</li>
+      <li>Ask AI Coach → Research Chatbot</li>
+    </ul>
+  </section>
+
+  <!-- MVP PLAN -->
+  <section id="mvp" class="bg-gray-100 py-16 px-6">
+    <div class="container mx-auto">
+      <h3 class="text-3xl font-semibold mb-4">🚀 MVP Plan</h3>
+      <ol class="list-decimal list-inside text-gray-700 leading-loose">
+        <li>Implement reverse search using arXiv and Semantic Scholar</li>
+        <li>Add skill roadmap generator via GPT</li>
+        <li>Create AI research chatbot</li>
+        <li>Design paper-to-toolkit code extractor</li>
+        <li>Launch with top 1000 indexed papers</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="contact" class="bg-gray-900 text-gray-300 text-center py-6">
+    <p>&copy; 2025 ResearchBolt. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
